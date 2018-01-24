@@ -20,8 +20,7 @@ function display_gold_silver( data )
     el.html( silver_rawdelta );
     var silver_delta = $('p', el).text();
 
-
-	$('#content').html( 'Gold: ' + gold_bid + ' (' + gold_delta + ')<br/>Silver: ' + silver_bid + ' (' + silver_delta + ')' );
+    $('#content').html( 'Gold: ' + gold_bid + ' (' + gold_delta + ')<br/>Silver: ' + silver_bid + ' (' + silver_delta + ')' );
 
 }
 
