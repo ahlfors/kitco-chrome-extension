@@ -1,7 +1,7 @@
 function kitco_fetch( callback ){
 
 	$.ajax({
-		url: "https://cors-anywhere.herokuapp.com/http://www.kitco.com",
+		url: "https://cors-anywhere.herokuapp.com/http://www.kitco.com/market/",
 		type: 'get',
 		async: false,
 		success: function( data ){
