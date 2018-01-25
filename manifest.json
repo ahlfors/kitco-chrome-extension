@@ -4,8 +4,13 @@
 	"version": "1.0",
 	"description": "Kitco for Chrome",
 	"browser_action": {
-		"default_icon": "images/kitco.png",
+		"default_icon": "images/icon.png",
 		"default_popup": "kitco.html"
+	},
+	"icons": {
+	    "16": "images/icon.png",
+	    "48": "images/48.png",
+	    "128": "images/128.png"
 	},
 	"permissions": [
 		"http://www.kitco.com/*"
